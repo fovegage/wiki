@@ -15,4 +15,6 @@ titleTag: 原创
 
 # Vue 报错error:0308010C:digital envelope routines::unsupported
 export NODE_OPTIONS=--openssl-legacy-provider
+
+# 当分类层级大于4将不能build
 ```
