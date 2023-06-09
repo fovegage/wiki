@@ -43,6 +43,8 @@ jobs:
           git add -A
           git commit -m "auto deploy, $commit_info"
           remote_addr=`echo $remote_addr | awk -F'://' '{print $2}'`
+          echo "111111111111111111111111111111"
+          echo ${{secrets.TOKEN}}
           remote_addr=https://${user_name}:${{secrets.TOKEN}}@${remote_addr}
           git remote add origin ${remote_addr}
           git push origin HEAD:$deploy_branch --force # 推送到github $deploy_branch分支
