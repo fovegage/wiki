@@ -174,7 +174,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         blogger: {
             avatar: 'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
             name: '嘉美伯爵',
-            slogan: 'Gopher',
+            // slogan: 'Full-stack Engineer',
         },
 
         // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.fovegage.com/pages/a20ce8/#social)
