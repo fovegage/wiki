@@ -1,10 +1,12 @@
 /**
  * 提示：如您想使用JS版本的配置文件可参考：https://github.com/fovegage/vuepress-theme-vdoing/tree/a2f03e993dd2f2a3afdc57cf72adfc6f1b6b0c32/docs/.vuepress
  */
+import { resolve } from 'path'
 import {defineConfig4CustomTheme, UserPlugins} from 'vuepress/config'
 import {VdoingThemeConfig} from 'vuepress-theme-vdoing/types'
 // @ts-ignore
 import dayjs from 'dayjs'
+import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
 
 const DOMAIN_NAME = 'www.gaozhe.net' // 域名 (不带https)
@@ -250,7 +252,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         [
             'vuepress-plugin-baidu-tongji', // 百度统计
             {
-                hm: '23e56b8f6103dd7a2a49bb5ce6500bcd',
+                hm: baiduCode,
             },
         ],
 
