@@ -1,7 +1,3 @@
-/**
- * 提示：如您想使用JS版本的配置文件可参考：https://github.com/fovegage/vuepress-theme-vdoing/tree/a2f03e993dd2f2a3afdc57cf72adfc6f1b6b0c32/docs/.vuepress
- */
-import { resolve } from 'path'
 import {defineConfig4CustomTheme, UserPlugins} from 'vuepress/config'
 import {VdoingThemeConfig} from 'vuepress-theme-vdoing/types'
 // @ts-ignore
@@ -21,7 +17,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         '/': {
             lang: 'zh-CN',
             title: "高哲技术博客",
-            description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
+            description: '全栈工程师,爬虫爱好者。spider,java,Golang,JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,rust',
         }
     },
     // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
@@ -30,94 +26,38 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     themeConfig: {
         // 导航配置
         nav: [
-            {text: '首页', link: '/'},
+            {
+                text: '首页',
+                link: '/'
+            },
             {
                 text: '编程',
-                link: '/program/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-                // items: [
-                //     // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-                //     {
-                //         text: '前端文章',
-                //         items: [
-                //             {text: 'JavaScript', link: '/pages/8143cc480faf9a11/'},
-                //         ],
-                //     },
-                //     {
-                //         text: '学习笔记',
-                //         items: [
-                //             {text: '《JavaScript教程》', link: '/note/javascript/'},
-                //             {text: '《JavaScript高级程序设计》', link: '/note/js/'},
-                //             {text: '《ES6 教程》', link: '/note/es6/'},
-                //             {text: '《Vue》', link: '/note/vue/'},
-                //             {text: '《React》', link: '/note/react/'},
-                //             {
-                //                 text: '《TypeScript 从零实现 axios》',
-                //                 link: '/note/typescript-axios/',
-                //             },
-                //             {
-                //                 text: '《Git》',
-                //                 link: '/note/git/',
-                //             },
-                //             {
-                //                 text: 'TypeScript',
-                //                 link: '/pages/51afd6/',
-                //             },
-                //             {
-                //                 text: 'JS设计模式总结',
-                //                 link: '/pages/4643cd/',
-                //             },
-                //         ],
-                //     },
-                // ],
+                link: '/program/'
             },
             {
                 text: '爬虫',
-                link: '/spider/',
-                // items: [
-                //     {text: 'HTML', link: '/pages/8309a5b876fc95e3/'},
-                //     {text: 'CSS', link: '/pages/0a83b083bdf257cb/'},
-                // ],
+                link: '/spider/'
             },
             {
                 text: '运维',
-                link: '/ops/',
-                // items: [
-                //     {text: '技术文档', link: '/pages/9a7ee40fc232253e/'},
-                //     {text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/'},
-                //     {text: 'Nodejs', link: '/pages/117708e0af7f0bd9/'},
-                //     {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
-                // ],
+                link: '/ops/'
             },
             {
                 text: '硬件',
-                link: '/electronic/',
-                // items: [
-                //     {text: '学习', link: '/pages/f2a556/'},
-                //     {text: '面试', link: '/pages/aea6571b7a8bae86/'},
-                //     {text: '心情杂货', link: '/pages/2d615df9a36a98ed/'},
-                //     {text: '实用技巧', link: '/pages/baaa02/'},
-                //     {text: '友情链接', link: '/friends/'},
-                // ],
+                link: '/electronic/'
             },
             {
                 text: '收藏',
-                link: '/pages/beb6c0bd8a66cea6/',
-                // items: [
-                //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-                //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
-                //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
-                // ],
+                link: '/pages/beb6c0bd8a66cea6/'
             },
             {
                 text: '归档',
                 link: '/archives/',
-                // items: [
-                //     {text: '分类', link: '/categories/'},
-                //     {text: '标签', link: '/tags/'},
-                //     {text: '归档', link: '/archives/'},
-                // ],
             },
-            {text: '关于', link: '/about/'},
+            {
+                text: '关于',
+                link: '/about/'
+            },
         ],
         sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
         logo: '/img/logo.png', // 导航栏logo
@@ -198,7 +138,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
         // 页脚信息
         footer: {
-            createYear: 2019, // 博客创建年份
+            createYear: 2018, // 博客创建年份
             copyrightInfo:
                 '嘉美伯爵', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
         },
@@ -265,21 +205,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             {
                 thirdparty: [
                     {
-                        title: '在MDN中搜索',
-                        frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
-                        behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
-                    },
-                    {
-                        title: '在Runoob中搜索',
-                        frontUrl: 'https://www.runoob.com/?s=',
-                    },
-                    {
-                        title: '在Vue API中搜索',
-                        frontUrl: 'https://cn.vuejs.org/v2/api/#',
-                    },
-                    {
-                        title: '在Bing中搜索',
-                        frontUrl: 'https://cn.bing.com/search?q=',
+                        title: '在Google中搜索',
+                        frontUrl: `https://www.google.com/search?q=site%3A${DOMAIN_NAME}%20`,
                     },
                     {
                         title: '通过百度搜索本站的',
