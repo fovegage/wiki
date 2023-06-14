@@ -10,9 +10,15 @@
     "publish": "cd ./vdoing && npm publish && cd .. && yarn updateTheme",
     "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build"
+    }
+  },
   "license": "MIT",
   "devDependencies": {
     "dayjs": "^1.9.7",
+    "husky": "^8.0.3",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
     "vuepress": "1.9.5",
