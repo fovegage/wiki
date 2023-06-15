@@ -276,6 +276,46 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 },
             },
         ],
+        [
+            'robots',
+            {
+                /**
+                 * @host
+                 * Mandatory, You have to provide the host URL
+                 */
+                host: WEB_SITE,
+                /**
+                 * @disallowAll
+                 * Optional: if it's true, all others options are ignored and exclude all robots from the entire server
+                 */
+                disallowAll: false,
+                /**
+                 * @allowAll
+                 * Optional: if it's true and @disallowAll is false, all others options are ignored and allow all robots complete access
+                 */
+                allowAll: true,
+                /**
+                 * @sitemap
+                 * Optional, by default: sitemap.xml
+                 */
+                sitemap: "/sitemap.xml",
+                /**
+                 * @policies
+                 * Optional, by default: null
+                 */
+                // policies: [
+                //     {
+                //         userAgent: '*',
+                //         disallow: [
+                //             '/admin', '/login'
+                //         ],
+                //         allow: [    // Optional: Allowed paths.
+                //             'products', 'blog'
+                //         ]
+                //     }
+                // ]
+            },
+        ],
     ],
 
     markdown: {

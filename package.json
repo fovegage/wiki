@@ -34,5 +34,8 @@
     "vuepress-plugin-zooming": "^1.1.7",
     "vuepress-theme-vdoing": "^1.12.8",
     "yamljs": "^0.3.0"
+  },
+  "dependencies": {
+    "vuepress-plugin-robots": "^1.0.1"
   }
 }
