@@ -114,7 +114,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
         // 博主信息 (显示在首页侧边栏)
         blogger: {
-            avatar: 'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+            avatar: 'https://obsidian-foveagge.oss-cn-beijing.aliyuncs.com/blog/wecom-temp-107723-e2bd1f4f2212f7ab919b9645d5ab0c22.jpg',
             name: '嘉美伯爵',
             // slogan: 'Full-stack Engineer',
         },
