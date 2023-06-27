@@ -165,7 +165,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 content: '全栈,个人技术博客,前端,后端,运维,爬虫,大数据,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,java,golang,rust',
             },
         ],
-        ['meta', {name: 'baidu-site-verification', content: '7F55weZDDc'}], // 百度统计的站长验证（你可以去掉）
+        // <meta name="360-site-verification" content="0964b90b8f5b130dfe78292a6a7ec804" />
+        ['meta', {name: '360-site-verification', content: '0964b90b8f5b130dfe78292a6a7ec804'}], // 百度统计的站长验证（你可以去掉）
         ['meta', {name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
         // [
         //   'script',
