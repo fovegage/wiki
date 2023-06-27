@@ -140,7 +140,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         footer: {
             createYear: 2018, // 博客创建年份
             copyrightInfo:
-                '嘉美伯爵 | <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" title="备案号">鲁ICP备20001560号-4</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+                '嘉美伯爵 | <a href="https://beian.miit.gov.cn/" target="_blank" title="备案号">鲁ICP备20001560号-4</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
         },
 
         // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
