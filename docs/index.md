@@ -16,7 +16,7 @@ features: # 可选的
     details: 逆向、渗透、大规模爬取
     link: /spider/
     imgUrl: /img/ui.png
-  - title: 硬件
+  - title: 折腾
     details: 树莓派、软路由、物联网
     link: /electronic/
     imgUrl: /img/other.png
