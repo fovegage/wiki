@@ -16,12 +16,7 @@
         </template>
         <!--Vdoing主题遵循MIT协议，完全开源且免费。如果您对主题的修改并不大，希望您保留主题的链接。-->
         All Rights Reserved
-        <a
-                href="https://beian.miit.gov.cn/#/Integrated/index"
-                target="_blank"
-                title="备案号"
-        >鲁ICP备20001560号-4</a>
-
+        <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" title="备案号">鲁ICP备20001560号-4</a>
     </div>
 </template>
 
