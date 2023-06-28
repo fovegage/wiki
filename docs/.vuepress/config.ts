@@ -166,7 +166,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             },
         ],
         // <meta name="360-site-verification" content="0964b90b8f5b130dfe78292a6a7ec804" />
-        ['meta', {name: '360-site-verification', content: '0964b90b8f5b130dfe78292a6a7ec804'}], // 百度统计的站长验证（你可以去掉）
+        ['meta', {name: '360-site-verification', content: '927d576128809309f49a00a7a7728a2d'}], // 百度统计的站长验证（你可以去掉）
         ['meta', {name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
         // [
         //   'script',
