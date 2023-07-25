@@ -1,3 +1,17 @@
+---
+title: 如何使用gitlab ci构建maven应用
+date: 2023-07-25 19:22:18
+permalink: /pages/13b4a6/
+categories:
+  - 运维
+  - 自动化
+  - 构建
+tags:
+  - 
+author: 
+  name: fovegage
+  link: https://github.com/fovegage
+---
 ## demo
 
 ```
