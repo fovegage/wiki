@@ -133,3 +133,6 @@ cd-job:
         git fetch && git rebase origin/main && git push
       fi
 ```
+
+## 参考
+- [GitLab CI/CD maven项目加速](https://blog.csdn.net/chen_hao_181/article/details/123559055)
