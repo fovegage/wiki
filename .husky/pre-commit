@@ -3,4 +3,4 @@
 
 # mac openssl error node>=19
 #export NODE_OPTIONS=--openssl-legacy-provider
-#npm run build
+npm run build
