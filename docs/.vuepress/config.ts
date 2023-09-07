@@ -43,7 +43,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 link: '/ops/'
             },
             {
-                text: '折腾',
+                text: '硬件',
                 link: '/electronic/'
             },
             {
