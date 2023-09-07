@@ -18,6 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "cypress": "^13.1.0",
     "dayjs": "^1.9.7",
     "husky": "^8.0.3",
     "inquirer": "^7.1.0",
