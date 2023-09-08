@@ -116,7 +116,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         blogger: {
             avatar: 'https://obsidian-foveagge.oss-cn-beijing.aliyuncs.com/blog/wecom-temp-107723-e2bd1f4f2212f7ab919b9645d5ab0c22.jpg',
             name: '嘉美伯爵',
-            // slogan: 'Full-stack Engineer',
+            slogan: '前途光明，无需畏惧',
         },
 
         // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.fovegage.com/pages/a20ce8/#social)

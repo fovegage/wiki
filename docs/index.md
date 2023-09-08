@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: Gopher
+heroText: Like author, like book
 tagline: I’m currently learning Block Chain and Rust
 #actionText: 立刻进入 →
 #actionLink: /web/
@@ -16,7 +16,7 @@ features: # 可选的
     details: 逆向、渗透、大规模爬取
     link: /spider/
     imgUrl: /img/ui.png
-  - title: 折腾
+  - title: 硬件
     details: 树莓派、软路由、物联网
     link: /electronic/
     imgUrl: /img/other.png
