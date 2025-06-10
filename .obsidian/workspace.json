@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/_posts/随笔/02.ChatWeb Next改造记录.md",
+                "file": "docs/00.目录页/03.AI.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "02.ChatWeb Next改造记录"
+              "title": "03.AI"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "program",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/_posts/随笔/02.ChatWeb Next改造记录.md",
+                "file": "docs/00.目录页/03.AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "02.ChatWeb Next改造记录 的反向链接列表"
+              "title": "03.AI 的反向链接列表"
             }
           },
           {
@@ -114,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/_posts/随笔/02.ChatWeb Next改造记录.md",
+                "file": "docs/00.目录页/03.AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "02.ChatWeb Next改造记录 的出链列表"
+              "title": "03.AI 的出链列表"
             }
           },
           {
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/_posts/随笔/02.ChatWeb Next改造记录.md",
+                "file": "docs/00.目录页/03.AI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "02.ChatWeb Next改造记录 的大纲"
+              "title": "03.AI 的大纲"
             }
           }
         ]
@@ -171,15 +170,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "31066dd4ebde8048",
+  "active": "789ebfe898886a4a",
   "lastOpenFiles": [
-    "docs/_posts/随笔/01.使用vuepress搭建博客的后续配置.md",
-    "docs/_posts/随笔/02.ChatWeb Next改造记录.md",
+    "docs/00.目录页/01.编程.md",
+    "docs/00.目录页/03.AI.md",
+    "docs/00.目录页/02.爬虫.md",
+    "docs/07.AI",
     "docs/index.md",
-    "blog/未命名.canvas",
     "docs/@pages/categoriesPage.md",
-    "docs/@pages/archivesPage.md",
     "docs/@pages/tagsPage.md",
+    "docs/@pages/archivesPage.md",
+    "docs/_posts/随笔/02.ChatWeb Next改造记录.md",
+    "docs/_posts/随笔/01.使用vuepress搭建博客的后续配置.md",
+    "blog/未命名.canvas",
     "docs/06.收藏夹/01.学习.md",
     "docs/05.关于/01.关于.md",
     "docs/02.爬虫/00.方案/07.爬虫优化方案之DNS优化.md",
