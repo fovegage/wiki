@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "da651ebd721bdc47",
+        "id": "373e5f1d83b1b529",
         "type": "tabs",
         "children": [
           {
-            "id": "789ebfe898886a4a",
+            "id": "23d86a40d2a305b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/00.目录页/03.AI.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "03.AI"
+              "title": "新标签页"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/00.目录页/03.AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "03.AI 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/00.目录页/03.AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "03.AI 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -142,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/00.目录页/03.AI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "03.AI 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -180,10 +173,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "789ebfe898886a4a",
+  "active": "23d86a40d2a305b4",
   "lastOpenFiles": [
-    "docs/00.目录页/01.编程.md",
+    "docs/01.编程/11.生产问题/01.etcd租约频繁续期.md",
     "docs/00.目录页/03.AI.md",
+    "docs/04.AI/02.应用",
+    "docs/04.AI/01.原理",
+    "docs/00.目录页/01.编程.md",
     "docs/00.目录页/02.爬虫.md",
     "docs/04.AI",
     "docs/index.md",
