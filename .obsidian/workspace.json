@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "03.AI 的大纲"
             }
+          },
+          {
+            "id": "ec440ddb40658f86",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,7 +185,7 @@
     "docs/00.目录页/01.编程.md",
     "docs/00.目录页/03.AI.md",
     "docs/00.目录页/02.爬虫.md",
-    "docs/07.AI",
+    "docs/04.AI",
     "docs/index.md",
     "docs/@pages/categoriesPage.md",
     "docs/@pages/tagsPage.md",
@@ -183,8 +193,8 @@
     "docs/_posts/随笔/02.ChatWeb Next改造记录.md",
     "docs/_posts/随笔/01.使用vuepress搭建博客的后续配置.md",
     "blog/未命名.canvas",
-    "docs/06.收藏夹/01.学习.md",
-    "docs/05.关于/01.关于.md",
+    "docs/07.收藏夹/01.学习.md",
+    "docs/06.关于/01.关于.md",
     "docs/02.爬虫/00.方案/07.爬虫优化方案之DNS优化.md",
     "docs/02.爬虫/00.方案/04.猫池及多账号建设方案.md"
   ]
