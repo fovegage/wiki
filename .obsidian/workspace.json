@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "373e5f1d83b1b529",
+        "id": "9ce14b99eaeeada3",
         "type": "tabs",
         "children": [
           {
-            "id": "23d86a40d2a305b4",
+            "id": "96c9a19906852319",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -173,9 +173,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "23d86a40d2a305b4",
+  "active": "96c9a19906852319",
   "lastOpenFiles": [
     "docs/01.编程/11.生产问题/01.etcd租约频繁续期.md",
+    "docs/04.AI/01.原理/01.token embed和postion embed.md",
     "docs/00.目录页/03.AI.md",
     "docs/04.AI/02.应用",
     "docs/04.AI/01.原理",
